@@ -155,3 +155,14 @@
     sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunparamed.rsi
   - type: Clothing
     sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunparamed.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSeniorBotanySuit
+  name: senior botanist jumpsuit
+  description: smells like dirt
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/seniorbotany.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/seniorbotany.rsi

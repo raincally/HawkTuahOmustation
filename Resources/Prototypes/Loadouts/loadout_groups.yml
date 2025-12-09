@@ -691,6 +691,8 @@
   - BotanistOveralls
   - ServiceMJ # goob
   - HydroMJ # goob
+  - SeniorBotanySuit
+  - SeniorBotanySkirt
 
 - type: loadoutGroup
   id: BotanistBackpack

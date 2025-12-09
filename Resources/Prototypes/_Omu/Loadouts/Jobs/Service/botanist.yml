@@ -1,0 +1,24 @@
+- type: loadoutEffectGroup
+  id: SeniorBotany
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobBotanist
+      time: 180000 #50 hrs
+
+- type: loadout
+  id: SeniorBotanySuit
+  equipment:
+    head: ClothingUniformSeniorBotanySuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorBotany
+
+- type: loadout
+  id: SeniorBotanySkirt
+  equipment:
+    head: ClothingUniformSeniorBotanySkirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorBotany
